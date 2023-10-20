@@ -18,10 +18,16 @@ print("Counters after operations first task  = \(result)")
 
 //MARK: Task 2
 
-let secondTask = SecondTask()
-var a = [3,4,4,6,1,4,4]
-var n = 5
-let resultSecTask = secondTask.solution(n, &a)
-print("Counters after operations secend task  = \(resultSecTask)")
+let secondTaskInstance = SecondTask()
+var countersForTask2 = [3, 4, 4, 6, 1, 4, 4]
+let nForTask2 = 5
+let resultTask2 = secondTaskInstance.solution(nForTask2, &countersForTask2)
+print("Counters after Task 2 operations: \(resultTask2)")
+
 
 //MARK: Task 3
+let thirdTaskInstance = ThridTask()
+var countersForTask3 = [3, 4, 4, 6, 1, 4, 4]
+let nForTask3 = 5
+let resultTask3 = thirdTaskInstance.solution(nForTask3, &countersForTask3)
+print("Counters after Task 3 operations: \(resultTask3)")

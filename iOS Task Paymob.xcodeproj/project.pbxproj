@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8AF93EC82AE2D59B00E76E66 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF93EC72AE2D59B00E76E66 /* main.swift */; };
+		8AF93ED12AE2DC2800E76E66 /* FirstTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF93ED02AE2DC2800E76E66 /* FirstTask.swift */; };
+		8AF93ED32AE2DD4100E76E66 /* SecondTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF93ED22AE2DD4100E76E66 /* SecondTask.swift */; };
+		8AF93ED72AE2DDFC00E76E66 /* ThridTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF93ED62AE2DDFC00E76E66 /* ThridTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		8AF93EC42AE2D59B00E76E66 /* iOS Task Paymob */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "iOS Task Paymob"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF93EC72AE2D59B00E76E66 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8AF93ED02AE2DC2800E76E66 /* FirstTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTask.swift; sourceTree = "<group>"; };
+		8AF93ED22AE2DD4100E76E66 /* SecondTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTask.swift; sourceTree = "<group>"; };
+		8AF93ED62AE2DDFC00E76E66 /* ThridTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThridTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				8AF93EC72AE2D59B00E76E66 /* main.swift */,
+				8AF93ED02AE2DC2800E76E66 /* FirstTask.swift */,
+				8AF93ED22AE2DD4100E76E66 /* SecondTask.swift */,
+				8AF93ED62AE2DDFC00E76E66 /* ThridTask.swift */,
 			);
 			path = "iOS Task Paymob";
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AF93ED72AE2DDFC00E76E66 /* ThridTask.swift in Sources */,
+				8AF93ED32AE2DD4100E76E66 /* SecondTask.swift in Sources */,
+				8AF93ED12AE2DC2800E76E66 /* FirstTask.swift in Sources */,
 				8AF93EC82AE2D59B00E76E66 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
